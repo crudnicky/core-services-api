@@ -1,0 +1,9 @@
+# Environmental Variables
+.env
+.env.*
+
+lib/
+
+bin/
+
+**/__pycache__/
