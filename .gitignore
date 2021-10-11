@@ -7,3 +7,5 @@ lib/
 bin/
 
 **/__pycache__/
+
+.unlimiter/
