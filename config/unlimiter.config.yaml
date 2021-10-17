@@ -1,0 +1,21 @@
+asana_v1:
+  dev:
+    url: https://app.asana.com/api/1.0
+    auth:
+      method: bearer
+      token: <token>
+benchling_v2:
+  dev:
+    url: https://abscidev.benchling.com/api/v2
+    auth:
+      method: basic
+      username: sk_NILsCCOZZFVWWLLRr5NRd73KUATCz
+      password: ''
+benchling_warehouse:
+  dev:
+    scheme: postgresql
+    url: postgres-warehouse.abscidev.benchling.com:5432/warehouse
+    auth:
+      method: basic
+      username: <username>
+      password: <password>
