@@ -38,7 +38,7 @@ the root: `poetry.lock` and `pyproject.toml`.
 **.env.dev** - Use the `.env-example` as a scaffold for the `.env.dev`. It must be placed in
 the project root.
 
-**.unlimiter/config.yaml** - This is required for Unlimiter SDK to function. Make the directory
+**config/unlimiter.config.yaml** - This is required for Unlimiter SDK to function. Make the directory
 in the project root and _[follow the directions for authentication and configuration](https://github.com/AbSciBio/unlimiter#authentication-configuration)._
 
 ## Commands
