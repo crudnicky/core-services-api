@@ -6,10 +6,10 @@ asana_v1:
       token: <token>
 benchling_v2:
   dev:
-    url: https://abscidev.benchling.com/api/v2
+    url: https://abscitest.benchling.com/api/v2
     auth:
       method: basic
-      username: sk_NILsCCOZZFVWWLLRr5NRd73KUATCz
+      username: sk_mAqh8a9o8ipbAIWTCyIQumeIX7LQQ
       password: ''
 benchling_warehouse:
   dev:
