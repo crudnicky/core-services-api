@@ -1,6 +1,6 @@
 from functools import lru_cache
 from fastapi import FastAPI
-from .routes import loupe
+from .routes.loupe import loupe_v1
 from starlette.middleware.cors import CORSMiddleware
 
 app = FastAPI()
@@ -13,4 +13,4 @@ app.add_middleware(
   allow_headers=["*"],
 )
 
-app.include_router(loupe.router)
+app.include_router(loupe_v1.router)

@@ -6,7 +6,7 @@ from api.controller.loupe_controller import LoupeController
 
 router = APIRouter()
 
-@router.get('/loupe/projects')
+@router.get('/v1/loupe/projects')
 async def get_all_projects():
   responses = LoupeController.get_all_projects()
   return responses
