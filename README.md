@@ -47,3 +47,4 @@ in the project root and _[follow the directions for authentication and configura
 |---|---|
 | `bash index.sh` | This command builds and starts the Core Services API inside a Docker container.|
 
+

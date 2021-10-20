@@ -2,10 +2,8 @@
 .env
 .env.*
 
-lib/
-
 bin/
 
 **/__pycache__/
 
-.unlimiter/
+**/unlimiter.config*

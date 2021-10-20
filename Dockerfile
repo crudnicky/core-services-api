@@ -15,7 +15,7 @@ WORKDIR /usr/src/core-services-api
 
 RUN mkdir -p /root/.unlimiter
 
-COPY ./.unlimiter/config.yaml /root/.unlimiter/config.yaml
+COPY /config/unlimiter.config.yaml /root/.unlimiter/config.yaml
 
 COPY --from=requirements-stage /tmp/requirements.txt /usr/src/core-services-api/requirements.txt
 

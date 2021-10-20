@@ -1,11 +1,8 @@
-from fastapi import FastAPI
-
 from unlimiter.data.api import BenchlingV2APIConnection
 
-app = FastAPI()
+import pprint
 
-@app.get('/')
-async def root():
+def get_all_projects():
   with BenchlingV2APIConnection() as benchling:
     projects = benchling.projects.list_projects()
-  return projects
+    return projects
