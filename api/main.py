@@ -2,6 +2,10 @@ from functools import lru_cache
 from fastapi import FastAPI
 from .routes.loupe import loupe_v1
 from starlette.middleware.cors import CORSMiddleware
+from starlette.config import Config
+from dotenv import load_dotenv
+
+load_dotenv('.env.dev')
 
 app = FastAPI()
 
